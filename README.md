@@ -2,4 +2,4 @@
 
 test change 1
 
-test 2 (save_artifacts)
+test  (save_artifacts)
