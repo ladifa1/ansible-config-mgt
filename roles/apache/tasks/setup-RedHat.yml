@@ -7,9 +7,9 @@
     enablerepo: "{{ apache_enablerepo | default(omit, true) }}"
 
 
-- name: set httpd_can_network_connect flag on and keep it persistent across reboots
-  become: yes
-  ansible.posix.setboolean:
-    name: httpd_can_network_connect
-    state: yes 
-    persistant: yes 
+# - name: set httpd_can_network_connect flag on and keep it persistent across reboots
+#   become: yes
+#   ansible.posix.setboolean:
+#     name: httpd_can_network_connect
+#     state: yes 
+#     persistant: yes 
