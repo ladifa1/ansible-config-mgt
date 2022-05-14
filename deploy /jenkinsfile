@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  enviroment {
+  environment {
      ANSIBLE_CONFIG="${WORKSPACE}/deploy/ansible.cfg"
   }
 
