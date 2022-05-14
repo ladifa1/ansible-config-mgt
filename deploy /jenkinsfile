@@ -29,7 +29,7 @@
     stage('Package') {
       steps {
         script {
-          sh 'echo "Packaging App'
+          sh 'echo "Packaging App"'
         }
       }
     }
@@ -37,7 +37,7 @@
     stage('Deploy') {
       steps {
         script {
-          sh 'echo "Deploying to Dev'
+          sh 'echo "Deploying to Dev"'
         }
       }
     }
