@@ -9,7 +9,7 @@
   tags: 
     - always
 
-- name: import database fileg
+- name: import database fileggg
   import_playbook: ../static-assignments/db.yml
   
 - name: import webservers file
