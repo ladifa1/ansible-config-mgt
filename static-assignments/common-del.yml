@@ -23,3 +23,5 @@
       autoremove: yes
       purge: yes
       autoclean: yes
+      44.205.146.145:8080
+      4d541a5d250e3320b95c1cea23af31e0f6224a3a
